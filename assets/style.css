@@ -58,11 +58,12 @@ nav{
 
 
 /* Banner CSS */
-.banner{
+.banner {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 30px;
     align-items: center;
+    padding-bottom: 80px;
 }
 .banner-title{
     color: #3A3A3A;
@@ -223,6 +224,7 @@ nav{
     color: #E02C6D;
     margin-left: 10px;
 }
+
 
 /* Footer Area CSS */
 .footer-content{
