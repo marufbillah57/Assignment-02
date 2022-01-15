@@ -213,8 +213,9 @@ nav{
     .container{
         width: 100%;
     }
-    .nav {
-        text-align: center;
+    nav{
+        grid-template-columns: 1fr;
+        justify-items: center;
     }
     .nav-left {
         font-size: 14px;
@@ -235,6 +236,7 @@ nav{
     }
     .products {
         grid-template-columns: 1fr;
+        justify-items: center;
     }
 }
 
@@ -242,5 +244,6 @@ nav{
 @media (min-width: 688px) and (max-width: 992px) {
     .products {
         grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
     }
 }
