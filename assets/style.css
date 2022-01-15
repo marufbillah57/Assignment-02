@@ -359,6 +359,10 @@ nav{
         grid-template-columns: 1fr;
         justify-items: center;
     }
+    .contact-area {
+        grid-template-columns: 1fr;
+    }
+   
 }
 
 
