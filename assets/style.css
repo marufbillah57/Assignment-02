@@ -312,14 +312,16 @@ nav{
     font-weight: 700;
     padding: 0;
 }
-.footer-content p{
+.footer-content p {
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
     color: #D9DBE1;
+    padding-top: 5px;
 }
 .social-link i {
     color: #fff;
     margin-right: 16px;
+    padding-top: 20px;
 }
 
 
