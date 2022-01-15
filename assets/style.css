@@ -58,6 +58,9 @@ nav{
     font-weight: 600;
     
 }
+.navigation li i {
+    font-size: 20px;
+}
 
 
 /* Banner CSS */
@@ -229,24 +232,61 @@ nav{
 }
 
 
-
-
-.contact form {
+/* contact CSS */
+.contact-area {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 50px;
+}
+.single-contact {
+    position: relative;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eaeaea;
+    padding-left: 70px;
+}
+.single-contact:last-child{
+    border-bottom: 0;
+}
+.single-contact i {
+    background-color: #e16038;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.single-contact h4 {
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.single-contact h4 span {
+    display: block;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: italic;
+    margin-top: 5px;
+}
+.contact-form form{
     display: flex;
     flex-direction: column;
-    width: 500px;
-    margin: 20px auto;
 }
-.contact form input, textarea {
-    padding: 10px 30px;
-    margin-bottom: 10px;
+.textfield, textarea {
+    padding: 5px 20px;
+    margin-bottom: 15px;
 }
-.contact-btn{
-    background-color: #E02C6D;
+.contact-form input[type="submit"] {
+    background-color: #E16038;
+    padding: 20px;
+    font-size: 20px;
     color: #fff;
-    padding: 10px 30px;
-    border-radius: 10px;
-    font-size: 30px;
+    outline: 0;
+    border: 0;
+    border-radius: 15px;
 }
 
 
