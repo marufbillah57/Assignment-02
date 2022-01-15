@@ -71,11 +71,20 @@ nav{
     align-items: center;
     padding-bottom: 80px;
 }
-.banner-title{
+.banner-title {
     color: #3A3A3A;
-    font-size: 52px;
-    font-weight: 700;
-    line-height: 70px;
+    font-size: 40px;
+    white-space: nowrap;
+    position: relative;
+    color: transparent;
+}
+.banner-title:before {
+    content: 'Start your Journey as Influencer';
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #3A3A3A;
+    animation: typing 3s linear infinite;
 }
 .banner-left p{
     color: #3A3A3A;
@@ -356,5 +365,223 @@ nav{
     .products {
         grid-template-columns: repeat(2, 1fr);
         justify-items: center;
+    }
+}
+
+
+
+
+/* Animation  */
+@keyframes typing {
+    0% {
+        content: 'S|';
+    }
+
+    4% {
+        content: 'St|';
+    }
+
+    8% {
+        content: 'Sta|';
+    }
+
+    12% {
+        content: 'Star|';
+    }
+
+    16% {
+        content: 'Start|';
+    }
+
+    20% {
+        content: 'Starty|';
+    }
+
+    24% {
+        content: 'Startyo|';
+    }
+
+    28% {
+        content: 'Startyou|';
+    }
+
+    32% {
+        content: 'Startyou|';
+    }
+
+    36% {
+        content: 'StartyourJ|';
+    }
+
+    40% {
+        content: 'StartyourJo|';
+    }
+
+    44% {
+        content: 'StartyourJou|';
+    }
+
+    48% {
+        content: 'StartyourJour|';
+    }
+
+    52% {
+        content: 'StartyourJourn|';
+    }
+
+    56% {
+        content: 'StartyourJourne|';
+    }
+
+    60% {
+        content: 'StartyourJourney|';
+    }
+
+    64% {
+        content: 'StartyourJourneya|';
+    }
+
+    68% {
+        content: 'StartyourJourneyas|';
+    }
+
+    72% {
+        content: 'StartyourJourneyasI|';
+    }
+
+    76% {
+        content: 'StartyourJourneyasIn|';
+    }
+
+    80% {
+        content: 'StartyourJourneyasInf|';
+    }
+
+    84% {
+        content: 'StartyourJourneyasInfl|';
+    }
+
+    88% {
+        content: 'StartyourJourneyasInflu|';
+    }
+
+    92% {
+        content: 'StartyourJourneyasInflue|';
+    }
+
+    96% {
+        content: 'StartyourJourneyasInfluen|';
+    }
+
+    100% {
+        content: 'StartyourJourneyasInfluenc|';
+    }
+
+    104% {
+        content: 'StartyourJourneyasInfluence|';
+    }
+
+    108% {
+        content: 'StartyourJourneyasInfluencer|';
+    }
+
+    112% {
+        content: 'StartyourJourneyasInfluencer|';
+    }
+
+    116%,
+	160%{
+        content: 'StartyourJourneyasInfluencer|';
+    }
+
+    161% {
+        content: 'StartyourJourneyasInfluence|';
+    }
+
+    162% {
+        content: 'StartyourJourneyasInfluenc|';
+    }
+
+    163% {
+        content: 'StartyourJourneyasInfluen|';
+    }
+
+    164% {
+        content: 'StartyourJourneyasInflue|';
+    }
+	165% {
+        content: 'StartyourJourneyasInflu|';
+    }
+	166% {
+        content: 'StartyourJourneyasInfl|';
+    }
+	167% {
+        content: 'StartyourJourneyasInf|';
+    }
+	168% {
+        content: 'StartyourJourneyasIn|';
+    }
+	169% {
+        content: 'StartyourJourneyasI|';
+    }
+	170% {
+        content: 'StartyourJourneyas|';
+    }
+	171% {
+        content: 'StartyourJourneya|';
+    }
+	172% {
+        content: 'StartyourJourney|';
+    }
+	173% {
+        content: 'StartyourJourne|';
+    }
+	174% {
+        content: 'StartyourJourn|';
+    }
+	175% {
+        content: 'StartyourJour|';
+    }
+	176% {
+        content: 'StartyourJou|';
+    }
+	177% {
+        content: 'StartyourJo|';
+    }
+	178% {
+        content: 'StartyourJ|';
+    }
+	179% {
+        content: 'Startyour|';
+    }
+	180% {
+        content: 'Startyou|';
+    }
+	181% {
+        content: 'Startyo|';
+    }
+	182% {
+        content: 'Starty|';
+    }
+	183% {
+        content: 'Start|';
+    }
+	184% {
+        content: 'Star|';
+    }
+	185% {
+        content: 'Sta|';
+    }
+	186% {
+        content: 'St|';
+    }
+	187% {
+        content: 'S|';
+    }
+	188% {
+        content: '|';
+    }
+	189% {
+        content: '|';
     }
 }
