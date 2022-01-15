@@ -23,6 +23,9 @@ body{
     text-align: center;
     padding: 30px 0;
 }
+.highlight{
+    color: red;
+}
 
 
 /* Header Area CSS */
@@ -223,6 +226,27 @@ nav{
 .detail-btn i {
     color: #E02C6D;
     margin-left: 10px;
+}
+
+
+
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 20px auto;
+}
+.contact form input, textarea {
+    padding: 10px 30px;
+    margin-bottom: 10px;
+}
+.contact-btn{
+    background-color: #E02C6D;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 30px;
 }
 
 
