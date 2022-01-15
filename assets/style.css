@@ -22,6 +22,7 @@ body{
     font-size: 28px;
     font-weight: 600;
     text-align: center;
+    padding: 30px 0;
 }
 
 
@@ -105,3 +106,76 @@ nav{
 
 
 /* Product Area CSS */
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 30px;
+}
+.single-product {
+    width: 330px;
+    height: 476px;
+    box-shadow: 3px 4px 10px rgb(0 0 0 / 60%);
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.product-img img{
+    width: 100%;
+}
+.product-title{
+    color: #18191F;
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 15px;
+}
+.price{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 8px 0;
+    color: #000;
+}
+.fas{
+    font-size: 12px;
+}
+.fa-star.filled{
+    color: #FB8200;
+}
+.fa-star.empty{
+    color: #5E6366;
+}
+.rating-point{
+    margin-left: 15px;
+    font-size: 14px;
+    color: #5E6366;
+}
+.product-info{
+    padding-top: 5px;
+    font-family: 'Open Sans', sans-serif;
+    color: #787885;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* Footer Area CSS */
+.footer-content{
+    background-color: #0A0826;
+    text-align: center;
+    padding: 20px 0;
+
+}
+.footer-content h3{
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 0;
+}
+.footer-content p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #D9DBE1;
+}
+.social-link i {
+    color: #fff;
+    margin-right: 16px;
+}
