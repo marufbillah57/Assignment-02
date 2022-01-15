@@ -247,6 +247,7 @@ nav{
     grid-template-columns: repeat(2, 1fr);
     padding-bottom: 50px;
 }
+
 .single-contact {
     position: relative;
     margin-bottom: 15px;
@@ -333,6 +334,7 @@ nav{
 @media only screen and (max-width: 688px) {
     .container{
         width: 100%;
+        padding: 10px;
     }
     nav{
         grid-template-columns: 1fr;
